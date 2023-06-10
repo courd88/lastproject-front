@@ -1,0 +1,124 @@
+@font-face {
+    /* LINE Seed */
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.triedCategory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 80%;
+    max-width: 1150px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.category-idx{
+    border-right: 1px solid rgb(27, 139, 231);
+    border-left: 1px solid rgb(27, 139, 231);
+}
+
+.category-idx>button {
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    font-family: 'LINESeedKR-Bd';
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.category-idx>button:nth-child(2) {
+    border-right: 1px solid rgb(27, 139, 231);
+    border-left: 1px solid rgb(27, 139, 231);
+
+}
+
+.category-idx>button:hover {
+    color: rgb(96, 174, 247);
+    transition: 0.3s ease-out;
+}
+
+.category-idx>button:not(:hover) {
+    transition: 0.3s ease-out;
+}
+
+.category-idx>.active {
+    color: rgb(27, 139, 231)
+}
+
+.category-order-year {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: flex-end;
+    /* width: 40%; */
+    width: 27%;
+    min-width: 125px;
+}
+
+.category-order>select {
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+    color: #444;
+    background-color: #fff;
+
+}
+
+.category-year>select {
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+    color: #444;
+    background-color: #fff;
+}
+
+@media (min-width: 800px){
+
+    .category-idx>button {
+        font-size: 1.2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .triedCategory {
+        width: 70%;
+    }
+
+    .category-order-year {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .category-idx>button {
+        font-size: 1.2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .triedCategory {
+        width: 60%;
+    }
+
+
+    .category-order-year {
+        width: 25%;
+    }
+
+}

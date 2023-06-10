@@ -1,0 +1,13 @@
+.DetailBox ul {
+  display: flex;
+
+ 
+}
+
+.DetailBox ul li {
+  /* display:inline-block;
+  text-align: center; */
+  /* padding-top: 30px; */
+  height: 50px;
+  text-align: center;
+}

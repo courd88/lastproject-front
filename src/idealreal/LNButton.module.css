@@ -1,0 +1,27 @@
+.buttonBox {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  /* background: pink; */
+  text-align: center;
+  color:#333;
+  margin-bottom: 30px;
+}
+
+.buttonContainer {
+  width: 100px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buttonContainer:last-child {
+  border-left: 1px solid #333;
+}
+
+@media (max-width: 800px) {
+  .buttonBox {
+  width: 70%;
+}
+ 
+}

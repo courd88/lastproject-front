@@ -1,0 +1,149 @@
+.reportWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:60px;
+}
+
+.reportContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-top:20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  padding : 40px 20px 10px 20px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.reported{
+  width: 100%;
+}
+
+.reportedUserWrap{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.reportedUserTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 40px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px 0 0 10px;
+  font-weight: bold;
+  background-color: rgb(240, 240, 240);
+  font-size: 0.8rem;
+}
+
+.reportedUser{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 40px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.reportedReason{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.reportedUserNicknameWrap{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.reportedUserNicknameTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 40px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px 0 0 10px;
+  font-weight: bold;
+  background-color: rgb(240, 240, 240);
+  font-size: 0.8rem;
+}
+
+.reportedUserNickname{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 40px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.reportedReason{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.reportedContent{
+  width: 100%;
+}
+
+.reportedContent > textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(220, 220, 220);
+  box-sizing: border-box;
+  padding: 5px 2px 5px 2px;
+}
+
+.reportedContent > textarea:focus {
+  outline: none;
+}
+
+.reportBtn{
+  margin-bottom: 40px;
+}
+
+@media (min-width: 800px){
+  .reportContainer{
+    width: 50%;
+  }
+
+  .reported{
+    width: 90%;
+  }
+
+  .reportedReason{
+    width: 90%;
+  }
+  
+  .reportedContent{
+    width: 90%;
+  }
+
+}
+@media (min-width: 1200px){
+  .reportContainer{
+    width: 30%;
+  }
+}

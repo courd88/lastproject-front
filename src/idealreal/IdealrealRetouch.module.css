@@ -1,0 +1,291 @@
+.containerWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom : 50px;
+  color: #333;
+}
+
+.containerWrap .realTitle {
+  margin-right:50%;
+  font-size: 35px;
+  font-weight:600;
+  margin-top: 96px;
+  margin-bottom:80px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.titleInput {
+  border: none;
+  border-bottom: 1px solid #5E8FCA;
+  border-radius: 0;
+  width: 100%; 
+}
+
+.content .subTitle {
+  font-size:25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content .userId {
+  display: block;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom:80px;
+  font-weight: 600;
+}
+
+.timeCnt {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.time {
+  margin-left:51%;
+}
+
+.contentBox {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.imgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:49%;
+  max-height: 320px;
+  border: 1px solid rgba(94, 143, 202, .5);
+  /* border: 1px solid #eee; */
+  /* box-shadow: 12px 12px 2px 1px rgba(94, 143, 202, .2); */
+  border-radius: 10px;
+}
+
+
+.lineBox {
+  width:49%;
+}
+
+.editor {
+  width: 100%;
+  box-sizing: border-box;
+  /* padding-left:20px; */
+  min-height: 320px;
+}
+
+.line1{
+  height: 1px;
+  width: 100%;
+  background-color: #5E8FCA;
+  border: 1px solid #eee;
+  /* box-shadow: 12px 12px 2px 1px rgba(94, 143, 202, .2); */
+}
+
+.line2 {
+  height: 1px;
+  width: 100%;
+  background-color: #5E8FCA;
+  border: 1px solid #eee;
+  /* box-shadow: 12px 12px 2px 1px rgba(94, 143, 202, .2); */
+}
+
+.imgBox1 {
+  /* margin-top:50px; */
+  /* margin: 200; */
+  /* width: 800px; */
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 1px solid blue; */
+}
+
+.imgSelect {
+  width: 48%;
+  height: 300px;
+  background: rgba(94, 143, 202, 0.3);
+  box-sizing:border-box;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  line-height: 17;
+  /* visibility: hidden; */
+}
+
+.label {
+  margin-top: 5px;
+  display: inline-block;
+  padding: .5em .75em;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #5E8FCA;
+  cursor: pointer;
+  /* border: 1px solid #ebebeb; */
+  /* border-bottom-color: #e2e2e2; */
+  border-radius: .50em;
+}
+
+.label:hover {
+  background: #2d6ebd;
+}
+
+.input {
+  position: absolute; 
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+
+.imgWidth {
+  width:50%;
+  max-height: 300px;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+@media (max-width: 800px) {
+  .containerWrap .realTitle{
+      font-size: 24px;
+      margin-right:0;
+      margin-top: 50px;
+      margin-bottom:21px;
+  }
+
+  .subTitle {
+      width:100%;
+      font-size: 18px;
+      margin-right:0;
+  }
+
+  .titleInput {
+      width: 100%; 
+  }
+
+  .time {
+      margin-left:0;
+  }
+
+  .contentBox {
+      width:100%;
+      /* display:flex; */
+      flex-direction: column;
+
+  }
+
+  .imgBox {
+      width:100%;
+      margin-bottom: 10px;    
+  }
+
+  .lineBox {
+      width:100%;
+  }
+ 
+}
+
+
+
+
+/* CSS default */
+
+.editor h2 {
+  display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor h3 {
+  display: block; font-size: 1.17em; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor h4 {
+  display: block; font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor strong {
+  font-weight: bold;
+}
+
+.editor i {
+  font-style: italic;
+}
+
+.editor p {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+}
+
+.editor a:link, a:visited {
+  color: (internal value); text-decoration: underline; cursor: auto;
+}
+
+.editor a:link:active, a:visited:active {
+  color: (internal value); 
+}
+
+.editor ul {
+  display: block; list-style-type: disc; margin-top: 1em; margin-bottom: 1 em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.editor ol {
+  display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.editor li {
+  display: list-item;
+}
+
+.editor blockquote {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.editor figure {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.editor table {
+  display: table; border-collapse: separate; border-spacing: 2px; border-color: gray;
+}
+
+.editor tbody {
+  display: table-row-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor td {
+  display: table-cell; vertical-align: inherit;
+}
+
+.editor tfoot {
+  display: table-footer-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor th {
+  display: table-cell; vertical-align: inherit; font-weight: bold; text-align: center;
+}
+
+.editor thead {
+  display: table-header-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor tr {
+display: table-row; vertical-align: inherit; border-color: inherit;
+}

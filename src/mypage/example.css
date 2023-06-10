@@ -1,0 +1,104 @@
+.background{
+  width: 100%;
+  overflow: hidden;
+}
+
+.background>img{
+  width:100%;
+  object-fit: cover;
+}
+
+.shin-img{
+  position: absolute;
+  z-index: 1;
+  right: 200px;
+  top: 2300px;
+  animation-name: shin-animation;
+  animation-duration: 0.3s;
+  transform-origin: bottom;
+}
+
+.shin-img>img{
+  width:500px;
+  filter: drop-shadow(3px 5px 10px);
+  
+}
+
+.shin-img>img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.shin-img2{
+  position: absolute;
+  z-index: 1;
+  left: 200px;
+  top: 2700px;
+  animation-name: shin-animation;
+  animation-duration: 0.3s;
+  transform-origin: bottom;
+}
+
+.shin-img2>img{
+  width:500px;
+  filter: drop-shadow(3px 5px 10px);
+  
+}
+
+.shin-img2>img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.shin-img3{
+  position: absolute;
+  z-index: 1;
+  right: 200px;
+  top: 4300px;
+  animation-name: shin-animation;
+  animation-duration: 0.3s;
+  transform-origin: bottom;
+}
+
+.shin-img3>img{
+  width:500px;
+  filter: drop-shadow(3px 5px 10px);
+  
+}
+
+.shin-img3>img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.shin-img4{
+  position: absolute;
+  z-index: 1;
+  left: 200px;
+  top: 4500px;
+  animation-name: shin-animation;
+  animation-duration: 0.3s;
+  transform-origin: bottom;
+}
+
+.shin-img4>img{
+  width:500px;
+  filter: drop-shadow(3px 5px 10px);
+  
+}
+
+.shin-img4>img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@keyframes shin-animation {
+  from {
+     opacity: 0;
+     transform: translate3d(0, 10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}

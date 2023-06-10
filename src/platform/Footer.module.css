@@ -1,0 +1,36 @@
+.footer {
+    background: #333;
+    height: 200px;
+    text-align : center;
+    font-size:14px;
+}
+
+.footer .footerContainer {
+    display: inline-block;
+}
+
+.footer .footerContainer::after {
+    content : "";
+    display : block;
+    clear : both;
+}
+
+.footer .footerContainer li {
+    margin-left:33px;
+    margin-top:42px;
+    color: snow;
+    float: left;
+    font-weight: 600;
+    list-style: none;
+}
+.footer .footerContainer li:first-child {
+    color:#5E8FCA;
+    margin-left:0;
+}
+
+.footer div {
+    color: #bfbfbf;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:22px;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1분코딩 예제 - 코로나19 시대, 제주 사는 개발자의 하루</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script>
+		// function printName() {
+		// 	const name = document.getElementById('name').value;
+		// 	document.getElementById("result").innerText = name;
+		// }
+		var inputText = function () {
+			var a = document.querySelector("#input1").value;
+			document.querySelector("#output1").innerText = a;
+			document.querySelector("#input1").value = "";
+			document.querySelector("#input1").focus();
+
+			var b = document.querySelector("#input2").value;
+			document.querySelector("#output2").innerText = b;
+			document.querySelector("#input2").value = "";
+			document.querySelector("#input2").focus();
+
+			var c = document.querySelector("#input3").value;
+			document.querySelector("#output3").innerText = c;
+			document.querySelector("#input3").value = "";
+			document.querySelector("#input3").focus();
+
+			var d = document.querySelector("#input4").value;
+			document.querySelector("#output4").innerText = d;
+			document.querySelector("#input4").value = "";
+			document.querySelector("#input4").focus();
+		};
+	</script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="global-width">
+			<div class="setp1">
+				<div class="step-box">
+					<input type="text" id="input1" placeholder="입력해1." />
+
+					<div></div>
+					<input type="text" id="input2" placeholder="입력해2." />
+
+					<div></div>
+					<input type="text" id="input3" placeholder="입력해3." />
+
+					<div></div>
+					<input type="text" id="input4" placeholder="입력해4." />
+					<button onclick="inputText();">입력</button>
+				</div>
+			</div>
+			<p >
+			<div></div>
+			옆으로 가라
+			<div></div>
+			이자식아
+			<div></div>
+			콱마
+			<div></div>
+			쌔리뿔라
+			<div></div>
+			</p>
+			<div>
+
+
+
+				<!-- <p id="two"></p> -->
+				<!-- <form method="post" enctype="multipart/form-data">
+			<input id="name" onkeyup='printName()'  type="text" placeholder="입력해"/>
+			<div id='result'></div><button type="submit"></button>
+		</form> -->
+
+				<h1 class="page-title">페이지를 한번 바꿔 보겠습니다</h1>
+
+				<p>
+					상황별 한국인과의 대화
+					<br>
+					같이 해보아요
+				</p>
+			</div>
+
+	</header>
+	<section class="scroll-content">
+		<div class="scroll-graphic">
+			<div class="graphic-item"><img class="scene-img" src="images/run.gif" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/way.gif" alt=""></div>
+			<div class="graphic-item" data-action="birdFlies">
+				<img class="bird" src="images/girl.gif" alt="">
+				<img class="scene-img" src="images/02.png" alt="">
+			</div>
+			<div class="graphic-item"><img class="scene-img" src="images/bird.gif" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/03.png" alt=""></div>
+			<div class="graphic-item" data-action="birdFlies2">
+				<img class="bird" src="images/bird.gif" alt="">
+				<img class="scene-img" src="images/04.png" alt="">
+			</div>
+			<div class="graphic-item"><img class="scene-img" src="images/05.png" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/06.png" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/07.png" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/08.png" alt=""></div>
+		</div>
+		<div class="scroll-text global-width">
+			<div class="step-box">
+				<div class="step1">
+					<p id="output1">1</p>
+				</div>
+				<div class="step">
+					<p>
+						do you know DokDo?
+					</p>
+				</div>
+			</div>
+			<div class="step-box">
+				<div class="step1">
+					<p id="output2">2</p>
+				</div>
+				<div class="step">
+					<p>
+						do you know kimchi?
+					</p>
+				</div>
+			</div>
+			<div class="step-box">
+				<div class="step1">
+					<p id="output3">3</p>
+				</div>
+				<div class="step">
+					<p>
+						do you know EsatSea?
+					</p>
+				</div>
+			</div>
+			<div class="step-box">
+				<div class="step1">
+					<p id="output4">4</p>
+				</div>
+				<div class="step">
+					<p>
+						Yanki go Home
+					</p>
+				</div>
+			</div>
+
+			<!-- <div class="step1">
+				<p>또 다른 사랑 배워갈</p>
+			</div>
+			<div class="step" id="output3">
+				<p>
+					사회적 거리두기를 위해 한적한 바닷길쪽으로 러닝을 한다.<br>가끔 만나는 바닷새와 눈인사를 나눈다.
+				</p>
+			</div>
+			<div class="step1">
+				<p>내 작은 기억 하나만</p>
+			</div>
+			<div class="step" id="output4">
+				<p>
+					맞다, 트위터의 걔.
+				</p>
+			</div>
+			<div class="step">
+				<p>
+					운동을 마치고 집에 돌아와 작업을 시작한다.
+				</p>
+			</div>
+			<div class="step">
+				<p>
+					밥은 집에서 먹거나, 테이크아웃이 가능한 메뉴를 골라 탁 트인 야외에서 먹는다. 물론 사회적 거리두기를 하기 위함이다.
+				</p>
+			</div>
+			<div class="step">
+				<p>
+					보통 오후 작업은 집 근처의 일하기 좋은 카페에서 해왔지만, 코로나19 이후에는 집에서 하는 날이 많아졌다.
+				</p>
+			</div>
+			<div class="step">
+				<p>
+					라면 매니아 답게 유튜브로 <a href="https://www.youtube.com/channel/UCYzTR8jV9_xv1p25N2dNBQQ"
+						target="_blank">라면소녀</a> 채널을 보며 간식으로 라면을 먹는다.
+				</p>
+			</div>
+			<div class="step">
+				<p>
+					자기 전, 가끔 <a href="https://www.youtube.com/channel/UCkTRKCuFrRiXQm_gMG1uDvg" target="_blank">요가소년</a>
+					채널을 보며 요가를 한다.
+				</p>
+			</div>
+			<div class="step">
+				<p>
+					일과를 마치고 <span class="strikethrough">폰질을 한다</span> 잠자리에 든다.
+				</p>
+			</div> -->
+		</div>
+	</section>
+	<section class="normal-content global-width">
+		<h2>여행을 떠나는 사람들</h2>
+		<p>푸른 언덕에 배낭을 메고 황금빛 태양 축제를 여는 광야를 향해서 계곡을 향해서</p>
+		<h2>나에게로 떠나는 여행</h2>
+		<p>저 푸른바다 끝까지 말을 달리면 소금같은 별이 떠있고 사막엔 낙타만이 가는길
+			무수한 사랑 길이 되어 열어줄거야</p>
+		<h2>나에게로의 초대</h2>
+		<p>환상 속에 있어 다가설 수 없는 나에게 너를 보여줘
+			조금만 다가서도 멀어지는 나의 사랑, 나의 꿈
+			너에게 나를 맞춰가고 있다 말하지 마 나에게 너를 초대 할 뿐이야
+			신비로운 너의 모습 나에게는 사랑인걸 조금씩 다가오는 널 느낄수록
+		</p>
+	</section>
+	<footer class="global-footer">
+		<a href="https://github.com/Jungkyosung/LastProjectFront" target="blank">궁금하다면 클릭해</a>
+	</footer>
+
+	<script src="main.js"></script>
+</body>
+
+</html>

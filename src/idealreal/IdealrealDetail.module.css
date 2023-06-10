@@ -1,0 +1,237 @@
+.containerWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom : 50px;
+  color: #333;
+}
+
+.containerWrap .realTitle {
+  margin-right:50%;
+  font-size: 35px;
+  font-weight:600;
+  margin-top: 30px;
+  margin-bottom:50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.content .subTitle {
+  font-size:25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content .userId {
+  display: block;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom:80px;
+  font-weight: 600;
+}
+
+.timeCnt {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.time {
+  margin-left:51%;
+}
+
+.contentBox {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.imgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:49%;
+  max-height: 320px;
+  border: 1px solid rgba(94, 143, 202, .5);
+  /* border: 1px solid #eee; */
+  /* box-shadow: 12px 12px 2px 1px rgba(94, 143, 202, .2); */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img {
+  width:244px;
+  height: 97%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.lineBox {
+  width:49%;
+}
+
+.editor {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left:20px;
+  min-height: 320px;
+}
+
+.line1{
+  height: 1px;
+  width: 100%;
+  background-color: #5E8FCA;
+  border: 1px solid #eee;
+  /* box-shadow: 12px 12px 2px 1px rgba(94, 143, 202, .2); */
+}
+
+.line2 {
+  height: 1px;
+  width: 100%;
+  background-color: #5E8FCA;
+  border: 1px solid #eee;
+  /* box-shadow: 12px 12px 2px 1px rgba(94, 143, 202, .2); */
+}
+
+@media (max-width: 800px) {
+  .containerWrap .realTitle{
+      font-size: 24px;
+      margin-right:0;
+      margin-top: 50px;
+      margin-bottom:21px;
+  }
+
+  .containerWrap .subTitle {
+      width:100%;
+      font-size: 18px;
+      margin-right:0;
+  }
+
+  .time {
+      margin-left:0;
+  }
+
+  .contentBox {
+      width:100%;
+      /* display:flex; */
+      flex-direction: column;
+
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .imgBox {
+      width:100%;
+      max-height: 320px;
+      margin-bottom:10px;
+      overflow: hidden;
+  }
+
+  .img {
+      width:50%;
+      
+      max-height: 300px;
+      
+  }
+
+
+  .lineBox {
+      width:100%;
+  }
+ 
+}
+
+
+
+
+/* CSS default */
+
+.editor h2 {
+  display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor h3 {
+  display: block; font-size: 1.17em; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor h4 {
+  display: block; font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor strong {
+  font-weight: bold;
+}
+
+.editor i {
+  font-style: italic;
+}
+
+.editor p {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+}
+
+.editor a:link, a:visited {
+  color: (internal value); text-decoration: underline; cursor: auto;
+}
+
+.editor a:link:active, a:visited:active {
+  color: (internal value); 
+}
+
+.editor ul {
+  display: block; list-style-type: disc; margin-top: 1em; margin-bottom: 1 em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.editor ol {
+  display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.editor li {
+  display: list-item;
+}
+
+.editor blockquote {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.editor figure {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.editor table {
+  display: table; border-collapse: separate; border-spacing: 2px; border-color: gray;
+}
+
+.editor tbody {
+  display: table-row-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor td {
+  display: table-cell; vertical-align: inherit;
+}
+
+.editor tfoot {
+  display: table-footer-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor th {
+  display: table-cell; vertical-align: inherit; font-weight: bold; text-align: center;
+}
+
+.editor thead {
+  display: table-header-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor tr {
+display: table-row; vertical-align: inherit; border-color: inherit;
+}

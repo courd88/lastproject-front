@@ -1,0 +1,85 @@
+#regist-wrap{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#regist-title{
+    font-size: 2rem;
+}
+
+#logo-box{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+#regist-input{
+    width: 270px;
+}
+
+#regist-input > form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#regist-input > form > div {
+    margin-left : 0;
+    margin-bottom : 20px;
+    width: 100%;
+}
+
+#regist-input > form > .green {
+    color: green;
+    font-size: 0.8rem;
+}
+
+#regist-input > form > .red {
+    color: red;
+    font-size: 0.8rem;
+}
+
+
+#regist-btn {
+    margin-left: calc(270px/2 - 100px/2);
+}
+
+#regist-btn > button{
+    width:100px;
+}
+
+#regist-login-sns{
+    margin-top:40px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#regist-google-logo{
+    margin-top: 30px;
+}
+
+#regist-google-logo > svg{
+    height: 2.5rem;
+    width: 40px;
+    cursor: pointer;
+}
+
+@media ( min-width : 800px){
+    #regist-input{
+        width: 350px;
+    }
+
+    #regist-btn {
+        margin-left: calc(350px/2 - 120px/2);
+    }
+
+    #regist-btn > button{
+        width:120px;
+    }
+}

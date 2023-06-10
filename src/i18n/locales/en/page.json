@@ -1,0 +1,48 @@
+{
+  "aboutUs":"ABOUT US",
+  "nowKorea":"NOW KOREA",
+  "travelInfo":"TRAVEL INFO",
+  "community":"COMMUNITY",
+  "info":"INFO",
+  
+  "koreaIssue":"KOREA ISSUE",
+  "koreaPrice":"KOREA PRICE EXPERIENCE",
+
+  "weather":"KOREA WEATHER",
+  "travelCourse":"TRAVEL COURSE",
+  "tried":"TRIED",
+  "accompany":"TRAVEL PARTNER",
+  "idealreal":"IDEAL & REAL",
+
+  "notice":"NOTICE",
+  "help":"QNA",
+  "regist":"REGIST",
+  "login":"LOGIN",
+
+  "snsLogin" : "SNS LOGIN",
+
+  "korea" : "Korea",
+  "issue" : "Issue",
+  "travel" : "Travel",
+  "partner" : "Partner",
+  "koreanowMain1" : "Korea",
+  "koreanowMain2" : "Now",
+  "kWeather" : "K WEATHER",
+  "kWeatherIntro" : "see the weather across the country",
+  "priceExperience" : "PRICE EXPERIENCE",
+  "priceExperienceIntro" : "experience the prices of Korea",
+  "koreaTried" : "KOREA TRIED",
+  "koreaTriedIntro" : "We can share how far we've gone",
+  "idealrealMain1" : "IDEAL",
+  "idealrealMain2" : "REAL",
+  "idealrealIntro" : "We share ideals and reality",
+  "travelcourseMain1" : "Travel",
+  "travelcourseMain2" : "Course",
+  "travelcourseIntro" : "Check out the tourist route",
+  "noticeIntro" : "Check the announcement!",
+  "qnaMain1" : "Q",
+  "qnaMain2" : "A",
+  "qnaIntro" : "Please leave any questions about KADA.",
+  "more" : "more"
+
+}

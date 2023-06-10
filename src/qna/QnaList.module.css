@@ -1,0 +1,106 @@
+.contentsWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom : 50px;
+  flex-wrap: wrap;
+}
+
+.contentsWrap .title {
+  margin-right:53%;
+  font-size: 35px;
+  font-weight:600;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.contentsWrap .content {
+  /* background: aquamarine; */
+  width: 90%;
+}
+
+.contentsWrap .search {
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0 10px 0;
+  border-top: 2px solid rgb(94, 143, 202);
+}
+
+.contentsWrap .table table {
+  width:100%;
+  border-bottom: 2px solid rgb(94, 143, 202);
+  margin-bottom:30px;
+  height:655px;
+}
+
+.contentsWrap .table table tr th {
+  background: rgba(94, 143, 202, 0.3);
+  font-weight: bold;
+  font-size:14px;
+  height:35px;
+  line-height: 35px;
+}
+
+.contentsWrap .table .noData {
+  text-align: center;
+  line-height: 208px;
+}
+
+.contentsWrap .table .noData td {
+  padding: 200px 0;
+
+}
+
+.contentsWrap .write {
+  display: flex;
+  justify-content: flex-end;
+  width:60%;
+  margin-top: 20px;
+}
+
+.contentsWrap .table table .qnaData {
+  cursor: pointer;
+}
+
+.contentsWrap .table table .qnaData td {
+  text-align: center;
+  height:30px;
+  line-height: 30px;
+  border-top:1px solid rgba(94, 143, 202, 0.2);
+  font-size:12px;
+}
+.contentsWrap .table table .qnaData td:nth-child(2){
+  text-align: start;
+  text-indent: 30px;
+}
+
+@media (min-width:800px){
+  .contentsWrap .content {
+    /* background: aquamarine; */
+    width: 60%;
+  }
+
+  .contentsWrap .title {
+    margin-top: 96px;
+    margin-bottom:42px;
+  }
+
+  .contentsWrap .table table tr th {
+    background: rgba(94, 143, 202, 0.3);
+    font-weight: bold;
+    font-size:20px;
+    height:45px;
+    line-height: 45px;
+  }
+
+  .contentsWrap .table table .qnaData td {
+
+    height:60px;
+    line-height: 60px;
+    font-size:16px;
+  }
+  
+  
+}

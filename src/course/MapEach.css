@@ -1,0 +1,138 @@
+#map-each-wrap {
+  background-color: rgb(250, 253, 255);
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgb(228, 228, 228);
+  margin-bottom: 40px;
+}
+
+#map-each-head-wrap {
+  display: flex;
+  width: 260px;
+  align-items: center;
+}
+
+#map-each-user-img>svg {
+  width: 55px;
+  height: 55px;
+}
+
+#map-each-user-img>img {
+  position: relative;
+  top: -20px;
+  left: -42px;
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+#map-each-user-info {
+  width: 170px;
+}
+
+#map-each-user-userid {
+  font-size: 0.8rem;
+  font-weight: bold;
+  /* margin-bottom: 5px; */
+}
+
+#map-each-date-area {
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+
+#map-each-main-img {
+  width: 260px;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#map-each-main-img>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+#map-each-main-img>img:hover {
+  filter: opacity(0.8) drop-shadow(0 0 0 rgb(175, 175, 175));
+  transform: scale(1.05);
+}
+
+#map-each-course-info {
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+}
+
+#map-each-course-title {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(2, 120, 255);
+  margin-left: 10px;
+  height: 24px;
+
+}
+
+#map-each-course-title > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+#map-each-course-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map-each-course-blank-btn{
+  width:24px;
+  height: 1px;
+}
+
+#map-each-course-wrap>svg {
+  cursor: pointer;
+  height: 13px;
+}
+
+#map-each-course-wrap>svg:hover {
+  cursor: pointer;
+  color: rgb(119, 119, 119);
+}
+
+
+#map-each-course-days {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  line-height: 20px;
+  width: 100%;
+}
+
+#map-each-course-day {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+#map-each-course-list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+#map-each-course-list>span {
+  margin: 0 5px 0 5px;
+  border-radius: 10px;
+  background-color: rgb(238, 238, 238);
+  font-size: 0.6rem;
+  height: 20px;
+  padding: 0 5px 0 5px;
+}

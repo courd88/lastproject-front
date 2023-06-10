@@ -1,0 +1,176 @@
+.contentsWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom : 50px;
+  color: #333;
+}
+
+.contentsWrap .title {
+  margin-right:53%;
+  font-size: 35px;
+  font-weight:600;
+  margin-top: 96px;
+  margin-bottom:42px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.content .subTitle {
+  font-size:25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content span {
+  display: block;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom:80px;
+}
+
+.editor {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left:20px;
+}
+
+.line1{
+  height: 2px;
+  width: 100%;
+  background-color: #5E8FCA;
+}
+
+.line2 {
+  height: 2px;
+  width: 100%;
+  background-color: #5E8FCA;
+  margin-bottom: 30px;
+}
+
+.comment {
+  width:60%;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.commentList {
+  width:60%;
+  display:flex;
+  flex-direction: column;
+  border-top: 1px solid #5E8FCA;
+  margin-bottom:20px;
+}
+
+.commentList .name strong {
+  margin-right: 10px;
+  font-weight: 600;
+  padding: 20px 0px;
+  display: inline-block;
+  padding-left:20px;
+}
+
+.commentList .name span {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.commentList p {
+  padding-left:20px;
+} 
+
+/* CSS default */
+
+.contentsWrap .editor h2 {
+  display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.contentsWrap .editor h3 {
+  display: block; font-size: 1.17em; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.contentsWrap .editor h4 {
+  display: block; font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.contentsWrap .editor strong {
+  font-weight: bold;
+}
+
+.contentsWrap .editor i {
+  font-style: italic;
+}
+
+.contentsWrap .editor p {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+}
+
+.contentsWrap .editor a:link, a:visited {
+  color: (internal value); text-decoration: underline; cursor: auto;
+}
+
+.contentsWrap .editor a:link:active, a:visited:active {
+  color: (internal value); 
+}
+
+.contentsWrap .editor ul {
+  display: block; list-style-type: disc; margin-top: 1em; margin-bottom: 1 em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.contentsWrap .editor ol {
+  display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.contentsWrap .editor li {
+  display: list-item;
+}
+
+.contentsWrap .editor blockquote {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.contentsWrap .editor figure {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.contentsWrap .editor table {
+  display: table; border-collapse: separate; border-spacing: 2px; border-color: gray;
+}
+
+.contentsWrap .editor tbody {
+  display: table-row-group; vertical-align: middle; border-color: inherit;
+}
+
+.contentsWrap .editor td {
+  display: table-cell; vertical-align: inherit;
+}
+
+.contentsWrap .editor tfoot {
+  display: table-footer-group; vertical-align: middle; border-color: inherit;
+}
+
+.contentsWrap .editor th {
+  display: table-cell; vertical-align: inherit; font-weight: bold; text-align: center;
+}
+
+.contentsWrap .editor thead {
+  display: table-header-group; vertical-align: middle; border-color: inherit;
+}
+
+.contentsWrap .editor tr {
+display: table-row; vertical-align: inherit; border-color: inherit;
+}
+
+@media (min-width:800px){
+  .comment {
+    width:60%;
+
+  }
+}

@@ -1,0 +1,10 @@
+#google-modal-wrap{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    margin-bottom: 50px;
+}

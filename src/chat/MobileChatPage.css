@@ -1,0 +1,322 @@
+/* #chatport-mobile{
+    display: none;
+} */
+
+#chatTitle {
+    display: flex;
+    justify-content: center;
+}
+
+#mobilechat-wrap {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.dialog-board {
+    border-bottom: 1px solid rgb(233, 233, 233);
+    height: 96%;
+    padding-left: 20px;
+    max-height: 800px;
+    overflow: auto;
+}
+
+#chatroomlist {
+    width: 80%;
+    margin-left: calc(10% - 21px);
+    /* border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: rgb(179, 179, 179); */
+    padding: 10px 20px 10px 20px;
+}
+
+.chatroomList-global {
+    border-width: 1px;
+    border-color: rgb(169, 162, 255);
+    border-style: solid;
+    color: rgb(66, 66, 66);
+    border-radius: 20px;
+    padding: 0 10px 0 20px;
+    margin-bottom: 10px;
+    background-color: rgb(217, 214, 255);
+    height: 60px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.chatroomList-global:hover {
+    border-color: rgb(122, 112, 253);
+    border-style: solid;
+    background-color: rgb(122, 112, 253);
+    transition: 0.3s ease-out;
+    opacity: 0.9;
+    color: white;
+}
+
+.chatroomList-global:not(:hover) {
+    transition: 0.2s ease-out;
+}
+
+.chatroombox {
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(162, 218, 255);
+    border-style: solid;
+    color: rgb(66, 66, 66);
+    padding: 0 10px 0 20px;
+    margin-bottom: 10px;
+    background-color: rgb(236, 245, 255);
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.chatroombox:hover {
+    border-color: rgb(138, 193, 255);
+    background-color: rgb(82, 163, 255);
+    transition: 0.3s ease-out;
+    opacity: 0.9;
+    color: white;
+}
+
+.chatroombox:not(:hover) {
+    transition: 0.2s ease-out;
+}
+
+.chatroombox>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.chatroombox>div>svg {
+    cursor: pointer;
+}
+
+.chatroombox>div>svg:hover {
+    color: red;
+}
+
+.chatroombox-wrap {
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.chatroombox-title {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.chatroombox-title:hover {
+    font-weight: bold;
+}
+
+.chatroombox-no-reading {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(67, 186, 255);
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+#chatroombox-title {
+    margin-right: 20px;
+}
+
+/* 프사 이미지 */
+#dialog-profile-img {
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    margin-right: 1px;
+    object-fit:cover;
+}
+
+#dialog {
+    height: 520px;
+}
+
+/* 나의 채팅 */
+.dialog-me {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+    background-color: rgb(170, 221, 255);
+    justify-items: end;
+    margin-left: 35%;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+/* .dialog-me>span>b {
+    display: none;
+} */
+
+.dialog-me>div>img {
+    display: none;
+}
+
+.dialog-me>#dialog-box>#dialog-message-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+    background-color: rgb(170, 221, 255);
+    justify-items: end;
+    margin-left: 35%;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 5px 1px rgb(146, 146, 146);
+}
+
+.dialog-me>#dialog-box>#dialog-message-box>span {
+    color: rgb(90, 90, 90);
+    font-size: 0.8rem;
+}
+
+.dialog-me>#dialog-box>#dialog-message-box-other {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 20%;
+    width: 72%;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.dialog-me>.dialog-date {
+    display: flex;
+    justify-content: end;
+    margin-right: 22px;
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+}
+
+.dialog-me>div>div>#dialog-profile-nickname {
+    display: none;
+}
+
+/* 상대 채팅 */
+.dialog-other>#dialog-box {
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.dialog-other>#dialog-box>#dialog-message-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    width: 72%;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.dialog-other>#dialog-box>#dialog-message-box>span {
+    color: rgb(90, 90, 90);
+}
+
+.dialog-other>#dialog-box>#dialog-message-box>span>b {
+    display: none;
+}
+
+.dialog-other>#dialog-box>#dialog-message-box-other>#dialog-message{
+    font-size:0.8rem;
+}
+
+.dialog-other>div>div>#dialog-profile-nickname {
+    color: rgb(56, 56, 56);
+    font-size: 0.8rem;
+}
+
+.dialog-other>#dialog-box>#dialog-message-box>#dialog-message {
+    background-color: rgb(255, 218, 226);
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 5px 1px rgb(146, 146, 146);
+}
+
+.dialog-other .dialog-date {
+    margin-left: 48px;
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+}
+
+#divMessage {
+    display: flex;
+    justify-content: center;
+}
+
+#divMessage>#blank {
+    width: 70px;
+}
+
+#divMessage>#messageInput {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 50%;
+    margin-right: 10px;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+#divMessage>#messageInput:focus {
+    border: 1px solid rgb(158, 158, 158);
+    outline: none;
+}
+
+#divMessage>button {
+    width: 15%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#divMessage>button:hover {
+    transition: 0.3s ease-out;
+    opacity: 0.9;
+    background-color: rgb(103, 92, 253);
+    color: white;
+}
+
+#divMessage>button:not(:hover) {
+    transition: 0.3s ease-out;
+
+}
+
+
+@media (min-width:800px){
+    .chatroombox-wrap {
+        width: 340px;
+    }
+}

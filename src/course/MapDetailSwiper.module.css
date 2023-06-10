@@ -1,0 +1,52 @@
+
+
+.swiperImgWrap{
+  margin-top:30px;
+  width:1500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiperImgWrap > img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* .swiper_custom_pagination {
+  bottom: var(--swiper-navigation-sides-offset, 40px);
+  position: absolute;
+  display: block;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 2;
+  top:45%;
+  color: red; 
+} */
+
+/* .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 30px;
+  }
+  .swiper-pagination-horizontal {
+  opacity: 0.5;
+  } */
+
+/* .swiper-button-prev{
+  left : var(--swiper-navigation-sides-offset, 40px);
+} */
+
+/*.swiper-button-prev swiper-button-disabled{
+  left : var(--swiper-navigation-sides-offset, 40px);
+}
+
+.swiper-button-next{
+  right: var(--swiper-navigation-sides-offset, 40px);
+}
+
+.swiper-button-next swiper-button-disabled{
+  right: var(--swiper-navigation-sides-offset, 40px);
+} */

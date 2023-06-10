@@ -1,0 +1,42 @@
+#mainmenu {
+    display: none;
+}
+
+#chatport-web {
+    display: none;
+}
+
+#top-arrow {
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 5px rgb(218, 216, 216);
+    cursor: pointer;
+    position: fixed;
+    right: 5%;
+    bottom: 14%;
+    z-index: 3;
+}
+
+#top-arrow:hover {
+    background-color: rgb(138, 183, 250);
+}
+
+@media (min-width: 800px) {
+    #mainmenu {
+        display: block;
+    }
+
+    #chatport-web {
+        display: block;
+    }
+
+    #chatport-mobile {
+        display: none;
+    }
+
+}

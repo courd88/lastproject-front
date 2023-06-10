@@ -1,0 +1,164 @@
+.AppWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.AppContentsWrap{
+  width: 90%;
+}
+
+.resultWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@font-face {
+  /* 이사만루 */
+  font-family: 'GongGothicMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+#title{
+  font-family: 'GongGothicMedium';
+  height: 1.6rem;
+  font-size: 1.5rem;
+}
+
+#date{
+  font-family: 'GongGothicMedium';
+  font-size: 1.2rem;
+  padding-top: 2%;
+}
+
+.city{
+  font-family: 'GongGothicMedium';
+  font-size: 1.3rem;
+}
+
+.skyIcon img{
+  height: 5rem;
+}
+
+.sky{
+  font-family: 'GongGothicMedium';
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+.temperature{
+  font-family: 'GongGothicMedium';
+  font-size: 1.rem;
+}
+
+.temperature > button {
+  border-style: none;
+  background-color: rgb(196, 206, 222);
+  cursor: pointer;
+  color:aliceblue;
+  font-size: 1em;
+  font-style: oblique;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.temperature > button:hover{
+  background-color: rgb(26, 98, 205);
+  box-shadow: 2px 2px 5px 3px rgb(197, 198, 201);
+}
+
+.clothesImg {
+  height: 250px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  overflow: hidden;
+  border-radius: 0 0 20px 20px;
+}
+
+.clothesImg img {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 20px 20px;
+}
+
+.citiesImg {
+  height: 150px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.citiesImg img {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 20px 20px;
+}
+
+.cityButtons{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 10%; */
+  justify-content: space-between;
+}
+
+.cityBtn {
+  width: 46%;
+  height: 1.7em;
+  border-style: none;
+  background-color: rgb(30, 112, 235);
+  cursor: pointer;
+  color:aliceblue;
+  font-size: 1.2em;
+  font-style: oblique;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 5px;
+}
+
+.cityBtn:hover {
+  background-color: rgb(17, 81, 207);
+  box-shadow: 2px 2px 5px 3px rgb(197, 198, 201);
+}
+
+
+
+@media (min-width : 800px) {
+
+  .AppContentsWrap{
+    width: 60%;
+  }
+
+  .clothesImg {
+    height: 350px;
+    width: 350px;
+  }
+
+  .citiesImg {
+    height: 200px;
+    width: 300px;
+  }
+  
+  .cityBtn {
+    width: 23%;
+    height: 2.5rem;
+  }
+
+  .cityButtons{
+    width: 80%;
+    margin-left: 10%;
+    max-width: 100%;
+  }
+}

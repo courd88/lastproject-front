@@ -1,0 +1,137 @@
+#profile-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-title {
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 500px;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+#profile {
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 400px;
+    border: 1px solid rgb(212, 212, 212);
+    box-sizing: border-box;
+    padding: 20px 0 20px 0;
+    border-radius: 20px;
+}
+
+#profile>img {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+#profile>p {
+    font-weight: bold;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.modifier {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.modifier:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#profile-recent-list {
+    margin-bottom: 20px;
+}
+
+#profile-board-wrap {
+    border: 1px solid rgb(212, 212, 212);
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    max-height: 620px;
+    /* overflow-y: scroll; */
+    /* box-shadow: 2px 2px 5px 5px rgb(228, 228, 228); */
+}
+
+/* #profile-board-wrap::-webkit-scrollbar {
+
+    width: 5px;
+    background-color: rgb(230, 230, 230);
+}
+
+#profile-board-wrap::-webkit-scrollbar-thumb {
+
+    width: 5px;
+    background-color: rgb(197, 197, 197);
+} */
+
+.profile-board-list {
+    max-height: 600px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+}
+
+.profile-board-list::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(230, 230, 230);
+}
+
+.profile-board-list::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: rgb(197, 197, 197);
+}
+
+.profile-board-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed gray;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.profile-board-title > svg{
+    cursor: pointer;
+}
+
+.profile-board-title > svg:hover{
+    border-radius: 10px;
+    background-color: rgb(201, 201, 201);
+}
+
+
+
+.profile-board-cont {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    line-height: 20px;
+
+}
+
+.profile-board-cont:hover {
+    background-color: rgb(236, 236, 236);
+
+}

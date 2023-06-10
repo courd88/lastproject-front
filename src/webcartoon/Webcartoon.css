@@ -1,0 +1,110 @@
+
+#webcartoon-main-upperimg > img{
+  width : 100%;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+#webcartoon-main-wrap{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#webcartoon-main-title{
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  width : 90%;
+  height: 40px;
+  text-align: center;
+}
+
+#webcartoon-main-list-write{
+  width: 90%;
+  text-align: end;
+  margin-bottom: 30px;
+}
+
+#webcartoon-main-list{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 95%;
+  border-width: 0 0 1px 0;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 15px;
+}
+
+#webcartoon-main-list-img{
+  width : 70%;
+  height: auto;
+}
+
+#webcartoon-main-list-img > img{
+  width : 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#webcartoon-main-list-lists{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media ( min-width : 600px ){
+  #webcartoon-main-upperimg > img{
+    height: 150px;
+  }
+
+  #webcartoon-main-title{
+    width : 580px;
+  }
+
+  #webcartoon-main-list-write{
+    width: 580px;
+  }
+
+  #webcartoon-main-list{
+    width: 80%;
+  }
+
+  #webcartoon-main-list-img{
+    width : 60%;
+    height: auto;
+  }
+
+}
+
+@media ( min-width : 1000px ){
+
+  #webcartoon-main-upperimg > img{
+    height: 200px;
+  }
+
+  #webcartoon-main-title{
+    width : 900px;
+  }
+
+  #webcartoon-main-list-write{
+    width: 900px;
+  }
+
+  #webcartoon-main-list{
+    width: 60%;
+  }
+
+  #webcartoon-main-list-img{
+    width : 60%;
+    height: auto;
+  }
+
+}

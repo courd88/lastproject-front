@@ -1,0 +1,238 @@
+.contentsWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom : 50px;
+  color: #333;
+}
+
+.contentsWrap .realTitle {
+  margin-right:50%;
+  font-size: 35px;
+  font-weight:600;
+  margin-top: 96px;
+  margin-bottom:80px;
+}
+
+.contentsWrap .subTitle {
+  margin-right:56%;
+  font-size: 25px;
+  font-weight:600;
+  margin-bottom: 20px;
+}
+
+.contentsWrap .subTitle:last-of-type {
+  margin-top: 60px;
+}
+
+.contentsWrap .imgBox1 {
+  margin-top:50px;
+  /* margin: 200; */
+  /* width: 800px; */
+  display:flex;
+  justify-content: space-between;
+  width: 50%;
+  /* border: 1px solid blue; */
+}
+
+.imgSelect {
+  width: 40%;
+  height: 300px;
+  background: rgba(94, 143, 202, 0.3);
+  box-sizing:border-box;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  line-height: 17;
+  /* visibility: hidden; */
+}
+
+.imgHi {
+  width:100%;
+  height: 300px;
+  object-fit: scale-down;
+}
+
+.label {
+  margin-top: 5px;
+  display: inline-block;
+  padding: .5em .75em;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #5E8FCA;
+  cursor: pointer;
+  /* border: 1px solid #ebebeb; */
+  /* border-bottom-color: #e2e2e2; */
+  border-radius: .50em;
+}
+
+.label:hover {
+  background: #2d6ebd;
+}
+
+.input {
+  position: absolute; 
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+
+.imgWidth {
+  width:40%;
+  height: 350px;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.contentsWrap .editor {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+@media (max-width:800px) {
+  .contentsWrap .realTitle {
+      font-size: 24px;
+      margin-right:0;
+      margin-top: 50px;
+      margin-bottom:21px;
+  }
+
+  .contentsWrap .subTitle {
+      font-size: 18px;
+      margin-right:0;
+  }
+
+  .contentsWrap .subTitle:last-of-type {
+      margin-top: 20px;
+  }
+
+  .imgBox {
+      font-size: 14px;
+      margin-bottom: 40px;
+      display:flex;
+      flex-direction: column;
+  }
+
+  .imgBox1 {
+      width: 60%;
+  }
+
+  .imgSelect {
+      width:49%;
+      height: 200px;
+  }
+
+  .imgSelect:last-child {
+      margin-top: 30px;
+  }
+
+  /* .imgWidth {
+      width:49%;
+      height: 200px;
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+  }
+
+  .imgHi {
+      width:100%;
+      height: 150px;
+      object-fit: scale-down;
+  } */
+
+}
+
+/* CSS default */
+
+.contentsWrap .editor h2 {
+  display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.contentsWrap .editor h3 {
+  display: block; font-size: 1.17em; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.contentsWrap .editor h4 {
+  display: block; font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.contentsWrap .editor strong {
+  font-weight: bold;
+}
+
+.contentsWrap .editor i {
+  font-style: italic;
+}
+
+.contentsWrap .editor p {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+}
+
+.contentsWrap .editor a:link, a:visited {
+  color: (internal value); text-decoration: underline; cursor: auto;
+}
+
+.contentsWrap .editor a:link:active, a:visited:active {
+  color: (internal value); 
+}
+
+.contentsWrap .editor ul {
+  display: block; list-style-type: disc; margin-top: 1em; margin-bottom: 1 em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.contentsWrap .editor ol {
+  display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.contentsWrap .editor li {
+  display: list-item;
+}
+
+.contentsWrap .editor blockquote {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.contentsWrap .editor figure {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.contentsWrap .editor table {
+  display: table; border-collapse: separate; border-spacing: 2px; border-color: gray;
+}
+
+.contentsWrap .editor tbody {
+  display: table-row-group; vertical-align: middle; border-color: inherit;
+}
+
+.contentsWrap .editor td {
+  display: table-cell; vertical-align: inherit;
+}
+
+.contentsWrap .editor tfoot {
+  display: table-footer-group; vertical-align: middle; border-color: inherit;
+}
+
+.contentsWrap .editor th {
+  display: table-cell; vertical-align: inherit; font-weight: bold; text-align: center;
+}
+
+.contentsWrap .editor thead {
+  display: table-header-group; vertical-align: middle; border-color: inherit;
+}
+
+.contentsWrap .editor tr {
+display: table-row; vertical-align: inherit; border-color: inherit;
+}

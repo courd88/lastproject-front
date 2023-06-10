@@ -1,0 +1,622 @@
+/* 0. 메인틀 */
+.main_page {
+    margin-top: 50px;
+    /* width: 70%; */
+    /* margin-left:15%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 1. 한국뉴스 */
+
+.main_koreaissue {
+    width: 70%;
+    display: flex;
+    padding: 0 60px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.newsMain_section_title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 auto 16px;
+}
+
+.style_font {
+    font-weight: 600;
+}
+
+.main_koreaissue_ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.main_koreaissue_li:nth-child(1) {
+    width: 550px;
+    /* height: 500px; */
+    overflow: hidden;
+}
+
+.main_koreaissue_li:nth-child(1) a div img {
+    width: 550px;
+    /* height: 340px; */
+}
+
+.main_koreaissue_li:nth-child(1) a h3 {
+    padding: 0 8px;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    height: auto;
+    overflow: hidden;
+    word-break: keep-all;
+
+    font-size: 24px;
+    letter-spacing: -.4px;
+    -webkit-line-clamp: 2;
+    max-height: 58px;
+}
+
+.main_koreaissue_li:nth-child(1) a p {
+    padding: 0 8px;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    height: auto;
+    overflow: hidden;
+    word-break: keep-all;
+
+    font-size: 16px;
+    letter-spacing: -.2px;
+    white-space: pre-wrap;
+    line-height: 1.4;
+    -webkit-line-clamp: 5;
+    max-height: 116px;
+}
+
+.main_koreaissue_li:nth-child(2) {
+    width: 290px;
+    /* height: 500px; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.main_koreaissue_li:nth-child(2) a div img {
+    width: 290px;
+    /* height: 340px; */
+}
+
+.main_koreaissue_li:nth-child(2) a h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    padding: 0 8px;
+    letter-spacing: -.2px;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 57px;
+    max-height: 57px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+.main_koreaissue_li:nth-child(2) a p {
+    padding: 0 8px;
+    font-size: 15px;
+}
+
+.main_koreaissue_li:nth-child(3) {
+    display: flex;
+    width: 340px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-right: none;
+    border-left: none;
+}
+
+.main_koreaissue_li:nth-child(3) a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.main_koreaissue_li:nth-child(3) a h3 {
+    line-height: 1.2;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: auto;
+    max-height: 48px;
+    overflow: hidden;
+    margin-bottom: 4px;
+    word-break: keep-all;
+}
+
+.main_koreaissue_li:nth-child(3) a p {
+    font-size: 15px;
+}
+
+@media (max-width: 375px) {
+    .main_koreaissue_li a div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_koreaissue_li:nth-child(3) {
+        margin-top: 30px;
+    }
+}
+
+
+/* 2. 동행찾기 */
+.main_accompany {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    /* padding: 0 60px; */
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../public/images/course_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accompanyMain_section_title {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.main_accompany_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.main_accompany_li {
+    width: 23%;
+    height: 300px;
+    background-color: rgb(246, 246, 246);
+    margin: 10px 0;
+}
+
+@media (max-width: 375px) {
+    .main_accompany {
+        height: 100vh;
+    }
+
+    .accompanyMain_section_title {
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .main_accompany {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main_accompany {
+        height: 110vh;
+    }
+}
+
+
+/* 3. 여행코스 */
+.main_now {
+    width: 70%;
+    display: flex;
+    /* padding: 0 60px; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.nowMain_section_title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px auto 16px;
+}
+
+.main_now_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.main_now_li {
+    position: relative;
+    width: 23%;
+    height: 400px;
+    background-color: rgb(246, 246, 246);
+    margin: 10px 0;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.main_now_li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_now_li strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* color: snow; */
+}
+
+.main_now_li:hover strong {
+    display: none;
+}
+
+.bg {
+    display: none;
+}
+
+.bg .icon {
+    color: #fff;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    font-size: 80px;
+}
+
+.bg em {
+    color: #fff;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 180px;
+}
+
+.bg p {
+    color: #fff;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 220px;
+    font-weight: 400;
+}
+
+.main_now_li:hover .bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_now_li:hover:nth-child(1) .bg {
+    background: rgba(3, 147, 112, 0.7);
+}
+
+.main_now_li:hover:nth-child(2) .bg {
+    background: rgba(198, 47, 0, 0.7);
+}
+
+.main_now_li:hover:nth-child(3) .bg {
+    background: rgba(255, 166, 36, 0.7);
+}
+
+.main_now_li:hover:nth-child(4) .bg {
+    background: rgba(237, 85, 0, 0.7);
+}
+
+.main_now_li .bg {
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: snow;
+}
+
+
+
+.main_now_li:nth-child(2) strong {
+    text-align: end;
+}
+
+.main_now_li:nth-child(2) .bg em {
+    text-align: center;
+}
+
+.main_now_li:nth-child(2) .bg p {
+    top: 230px;
+}
+
+@media (max-width: 375px) {
+    .main_now_ul {
+        flex-direction: column;
+    }
+
+    .main_now_li {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_now_li strong {
+        bottom: 5px;
+    }
+
+    .main_now_li:nth-child(4) strong {
+        width: 100%;
+        margin-left: 60px;
+    }
+
+}
+
+
+
+/* @media (max-width: 1240px){
+    .main_accompany{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main_accompany_li{
+        width: 48%;
+    }
+}
+
+@media (max-width: 800px){
+    .main_accompany{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main_accompany_li{
+        width: 100%;
+    }
+} */
+
+/* 4. 여행코스 */
+.main_course {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    /* padding: 0 60px; */
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../public/images/bg_trip_1.png);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: 70% 44%;
+}
+
+.courseMain_section_title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 70px auto 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.course_text {
+    color: #fff;
+    font-size: 1.5em;
+    padding-top: 0.8em;
+    padding-bottom: 1.8em;
+}
+
+@media (max-width:375px){
+    .main_course {
+        background-position: 59% 44%;
+    }
+}
+
+/* .main_course_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.main_course_li {
+    position: relative;
+    width: 23%;
+    height: 400px;
+    background-color: rgb(246, 246, 246);
+    margin: 10px 0;
+    list-style: none;
+    cursor: pointer;
+
+} */
+
+/* 5. 공지사항 */
+.main_notice {
+    width: 70%;
+    display: flex;
+    padding: 0 60px;
+    flex-direction: column;
+}
+
+.main_notice_ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.main_notice_li {
+    width: 49%;
+    height: 300px;
+    color: snow;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.main_notice_li:hover {
+    background-size: 30%;
+}
+
+.main_notice_li:first-child {
+    background-image: url(../../public/images/notice_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_notice_li:last-child {
+    background-image: url(../../public/images/qna_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_notice_li .txt_bx {
+    padding: 6.25rem;
+}
+
+.main_notice_li .txt_bx .tit {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.main_notice_li .txt_bx .text {
+    font-size: 1.375em;
+    font-weight: 300;
+    margin-top: 0.6125rem;
+    margin-bottom: 2.25rem;
+}
+
+.btn_more {
+    color: #fff;
+    border: none;
+    position: relative;
+    /* height: 150px; */
+    font-size: 1em;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    outline: none;
+}
+
+/* .btn_more:nth-child(1){
+    font-size:1.2em;
+} */
+
+.btn_box {
+    position: relative;
+}
+
+.btn_more:hover {
+    background: none;
+    color: #fff;
+    box-shadow: 0px 10px 8px 1px rgba(255, 255, 255, .5);
+}
+
+.btn_more::before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn_more::before,
+.btn_more::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    transition: 400ms ease all;
+}
+
+.btn_more::after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn_more:hover::before,
+.btn_more:hover::after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+
+@media (max-width: 375px) {
+
+    .main_notice_li .txt_bx {
+        padding: 5.25rem 0 0 1.25rem;
+    }
+
+    .btn_more {
+        border: 2px solid #fff;
+    }
+
+    .main_notice_ul {
+        flex-direction: column;
+    }
+
+    .main_notice_li {
+        width: 100%;
+        height: 300px;
+        color: snow;
+        margin: 10px 0;
+        overflow: hidden;
+    }
+}

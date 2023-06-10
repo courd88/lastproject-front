@@ -1,0 +1,71 @@
+
+.course-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+  z-index: 4;
+}
+ 
+/* modal창 */
+.course-modalBody {
+  position: absolute;
+  width: 95%;
+  /* min-width:600px; */
+  max-width: 800px;
+  height: 90%;
+  /* padding: 5px; */
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  z-index: 5;
+
+  animation-name: course-modal-animation;
+  animation-duration: 0.3s;
+  transform-origin: bottom;
+}
+ 
+@keyframes course-modal-animation {
+  from {
+     opacity: 0;
+     transform: translate3d(0, 10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+#course-modalCloseBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(0, 0, 0);
+  /* border: none; */
+  /* color: rgba(0, 0, 0, 0.7); */
+  /* background-color: transparent; */
+  /* font-size: 20px; */
+}
+ 
+#course-modalCloseBtn:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+  border-radius: 10px;
+}
+ 
+
+@media (min-width : 1000px){
+  /* modal창 */
+.course-modalBody {
+  width: 80%;
+  /* height: 800px; */
+
+}
+}

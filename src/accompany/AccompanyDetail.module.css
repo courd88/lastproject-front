@@ -1,0 +1,81 @@
+/* CSS default */
+
+.editor h2 {
+  display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor h3 {
+  display: block; font-size: 1.17em; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor h4 {
+  display: block; font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0; margin-right: 0; font-weight: bold;
+}
+
+.editor strong {
+  font-weight: bold;
+}
+
+.editor i {
+  font-style: italic;
+}
+
+.editor p {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+}
+
+.editor a:link, a:visited {
+  color: (internal value); text-decoration: underline; cursor: auto;
+}
+
+.editor a:link:active, a:visited:active {
+  color: (internal value); 
+}
+
+.editor ul {
+  display: block; list-style-type: disc; margin-top: 1em; margin-bottom: 1 em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.editor ol {
+  display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; padding-left: 40px;
+}
+
+.editor li {
+  display: list-item;
+}
+
+.editor blockquote {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.editor figure {
+  display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;
+}
+
+.editor table {
+  display: table; border-collapse: separate; border-spacing: 2px; border-color: gray;
+}
+
+.editor tbody {
+  display: table-row-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor td {
+  display: table-cell; vertical-align: inherit;
+}
+
+.editor tfoot {
+  display: table-footer-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor th {
+  display: table-cell; vertical-align: inherit; font-weight: bold; text-align: center;
+}
+
+.editor thead {
+  display: table-header-group; vertical-align: middle; border-color: inherit;
+}
+
+.editor tr {
+display: table-row; vertical-align: inherit; border-color: inherit;
+}

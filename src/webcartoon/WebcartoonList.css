@@ -1,0 +1,71 @@
+#webcartoon-list-wrap{
+  width:100%;
+}
+
+#webcartoon-list-head{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px rgb(148, 148, 148) solid;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  margin-top:20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+#webcartoon-list-title{
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
+
+#webcartoon-list-more{
+  cursor: pointer;
+}
+
+#webcartoon-list-lists{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5%;
+  width: 95%;
+}
+
+.webcartoon-list-lists-wrap{
+  display: flex;
+  font-size: 0.8rem;
+  width: 100%;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+
+.webcartoon-lists-title{
+  width: 70%;
+  font-weight: bold;
+}
+
+.webcartoon-lists-etc{
+  display: flex;
+}
+
+.webcartoon-lists-nickname{
+  width: 40%;
+}
+
+.webcartoon-lists-date{
+  width: 20%;
+}
+
+.webcartoon-lists-cnt{
+  width: 20%;
+}
+
+.webcartoon-lists-rcmd{
+  width: 20%;
+}
+
+@media ( min-width : 1200px ){
+  #webcartoon-list-wrap{
+    width:48%;
+  }
+}

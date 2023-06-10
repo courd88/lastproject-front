@@ -1,0 +1,155 @@
+/* 0. 메인틀 */
+#main-page{
+    margin-top: 50px;
+    width: 70%;
+    margin-left:15%;
+}
+
+/* 1. 한국뉴스 */
+
+
+#main-koreaissue{
+    display: flex;
+    padding: 0 60px;
+    flex-direction: column;
+}
+
+#main-koreaissue-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;  
+}
+
+.main-koreaissue-li{
+    width: 23%;
+    height: 300px;
+    background-color: rgb(246, 246, 246);
+    margin: 10px 0;
+}
+
+
+
+@media (max-width: 1240px){
+    #main-page{
+        width: 100%;
+        margin-left:0%;
+    }
+
+    #main-koreaissue{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main-koreaissue-li{
+        width: 48%;
+    }
+}
+
+@media (max-width: 800px){
+    #main-koreaissue{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main-koreaissue-li{
+        width: 100%;
+    }
+}
+
+
+/* 2. 동행찾기 */
+#main-accompany{
+    display: flex;
+    padding: 0 60px;
+    flex-direction: column;
+}
+
+#main-accompany-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;  
+}
+
+.main-accompany-li{
+    width: 23%;
+    height: 300px;
+    background-color: rgb(246, 246, 246);
+    margin: 10px 0;
+}
+
+
+
+@media (max-width: 1240px){
+    #main-accompany{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main-accompany-li{
+        width: 48%;
+    }
+}
+
+@media (max-width: 800px){
+    #main-accompany{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main-accompany-li{
+        width: 100%;
+    }
+}
+
+/* 3. 공지사항 */
+#main-notice{
+    display: flex;
+    padding: 0 60px;
+    flex-direction: column;
+}
+
+#main-notice-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;  
+}
+
+.main-notice-li{
+    width: 48%;
+    height: 300px;
+    background-color: rgb(246, 246, 246);
+    margin: 10px 0;
+}
+
+
+
+@media (max-width: 1240px){
+    #main-notice{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main-notice-li{
+        width: 48%;
+    }
+}
+
+@media (max-width: 800px){
+    #main-notice{
+        display: flex;
+        padding: 0 40px;
+        
+    }
+
+    .main-notice-li{
+        width: 100%;
+    }
+}

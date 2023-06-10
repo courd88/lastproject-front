@@ -1,0 +1,98 @@
+.triedDetail-comnt-each{
+  width: 100%;
+  margin-top:10px;
+  display: flex;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+}
+
+.triedDetail-comnt-userinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 13%;
+}
+
+.triedDetail-comnt-userinfo > button{
+margin-left:0;
+}
+
+.triedDetail-comnt-userimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+
+.triedDetail-comnt-userimg > img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.triedDetail-comnt-usernick{
+  font-size: 0.8rem;
+}
+
+.triedDetail-comnt-etc{
+  width: 87%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.triedDetail-comnt-cont{
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.triedDetail-comnt-cont-modify{
+  width: 100%;
+}
+
+.triedDetail-comnt-cont-modify>div{
+  width: 90%;
+}
+
+.triedDetail-comnt-time{
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.triedDetail-comnt-control{
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.triedDetail-comnt-control-modify{
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 4px 4px 4px 4px;
+}
+
+.triedDetail-comnt-control-modify:hover{
+  background-color: rgb(218, 218, 218);
+}
+
+.triedDetail-comnt-control-delete{
+  cursor: pointer;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 4px 4px 4px 4px;
+}
+
+.triedDetail-comnt-control-delete:hover{
+  background-color: rgb(218, 218, 218);
+}
+
+.triedDetail-comnt-btns > svg{
+  width:18px;
+  cursor: pointer;
+}

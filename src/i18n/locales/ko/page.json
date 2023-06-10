@@ -1,0 +1,47 @@
+{
+  "aboutUs":"ABOUT US",
+  "nowKorea":"지금 한국은",
+  "travelInfo":"여행정보",
+  "community":"커뮤니티",
+  "info":"INFO",
+
+  "koreaIssue":"한국이슈",
+  "koreaPrice":"물가체험",
+
+  "weather":"날씨",
+  "travelCourse":"여행코스",
+  "tried":"어디까지",
+  "accompany":"여행친구",
+  "idealreal":"이상과현실",
+
+  "notice":"공지사항",
+  "help":"문의사항",
+  "regist":"회원가입",
+  "login":"로그인",
+
+  "snsLogin" : "SNS LOGIN",
+
+  "korea" : "한국",
+  "issue" : "이슈",
+  "travel" : "여행",
+  "partner" : "친구",
+  "koreanowMain1" : "지금",
+  "koreanowMain2" : "한국은",
+  "kWeather" : "한국 날씨",
+  "kWeatherIntro" : "전국의 날씨를 확인하세요",
+  "priceExperience" : "물가 체험",
+  "priceExperienceIntro" : "한국 물가를 체험하세요",
+  "koreaTried" : "어디까지",
+  "koreaTriedIntro" : "어디까지 한국을 경험했는지 공유하세요",
+  "idealrealMain1" : "이상",
+  "idealrealMain2" : "현실",
+  "idealrealIntro" : "이상과 현실을 공유하세요",
+  "travelcourseMain1" : "여행",
+  "travelcourseMain2" : "코스",
+  "travelcourseIntro" : "여행코스를 확인하세요",
+  "noticeIntro" : "공지사항을 확인하세요!",
+  "qnaMain1" : "문의",
+  "qnaMain2" : "답변",
+  "qnaIntro" : "KADA에 문의를 남겨주세요",
+  "more" : "더보기"
+}

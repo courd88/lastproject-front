@@ -1,0 +1,76 @@
+#mobile-mainmenu-window{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    margin-top: 40px;
+}
+
+#mobile-mainmenu-logo{
+    margin-top:20px;
+    width:150px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#mobile-mainmenu-logo > a > img{
+    width:150px;
+    height: 60px;
+}
+
+#mobile-mainmenu-window > p{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#mobile-mainmenu-window > p:hover{
+    font-weight: bold;
+}
+
+#mobile-mainmenu-window > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top:20px;
+    font-size: 1rem;
+    
+}
+
+#mobile-mainmenu-window > ul > div {
+    margin-top:20px;
+    font-size: 0.9rem;
+    width: 70%;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    text-align: center;
+}
+
+#mobile-mainmenu-window > ul > li {
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 80%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#mobile-mainmenu-window > ul > li:hover {
+    cursor: pointer;
+    font-size: 0.9rem;
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+@media ( min-width : 500px ){
+    #mobile-mainmenu-window{
+        width: 400px;
+    }
+}

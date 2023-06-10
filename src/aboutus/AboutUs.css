@@ -1,0 +1,56 @@
+#slider{
+    width: 100%;
+    /* background-color: white; */
+    height: 100%;
+    position: fixed;
+    color: black;
+}
+#overflow{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: blue; */
+    color: black;
+    top: 0;
+}
+.container {
+    
+}
+.box {
+    /* border: solid 10px red; */
+    border-radius: 30;
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+.box1 {
+    /* border: solid 10px yellow; */
+    border-radius: 30;
+    width: 40%;
+    height: 300px;
+    float: right;
+    text-align: center;
+}
+.box2 {
+    /* border: solid 10px red; */
+    border-radius: 30;
+    width: 40%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.box3 {
+    /* border: solid 10px yellow; */
+    border-radius: 30;
+    width: 60%;
+    height: 500px;
+    /* float: right; */
+}
+.pic {
+    /* background-image: url("C:\Users\hi\JAVASCRIPT\LastProjectFront\src\aboutus\img/bum.gif"); */
+    background-repeat: no-repeat;
+    background-position : left center;
+    background-size: 100% 100%;
+    /* https://hianna.tistory.com/724 css참조 */
+    /* opacity: 0.5; 투명도 */
+}

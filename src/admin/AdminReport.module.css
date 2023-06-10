@@ -1,0 +1,100 @@
+.reportWrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.reportListTop{
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.reportList{
+  display: flex;
+  flex-direction: column;
+}
+
+.reportHead{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  border-top: 1px solid rgb(219, 219, 219);
+  font-size: 0.8rem;
+  line-height: 20px;
+  background-color: rgb(202, 198, 183);
+  margin-top:20px;
+}
+
+.reportHeadTime{
+  width: 15%;
+}
+
+.reportHeadReportedUser{
+  width: 15%;
+}
+
+.reportHeadReporter{
+  width: 15%;
+}
+
+.reportHeadReportReason{
+  width: 15%;
+}
+
+.reportHeadReportContent{
+  width: 15%;
+}
+
+.reportHeadReportMore{
+  width: 15%;
+}
+
+.reportBody{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+
+.reportBody:hover{
+  background-color:rgb(236, 236, 236);
+}
+
+.reportBodyTime{
+  width: 15%;
+}
+
+.reportReportedUser{
+  width: 15%;
+}
+
+.reportReporter{
+  width: 15%;
+}
+
+.reportReportReason{
+  width: 15%;
+}
+
+.reportReportContent{
+  width: 15%;
+}
+
+.reportBodyReportMore{
+  width: 15%;
+}
+
+.reportBodyReportMore:hover{
+  width: 15%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.reportPaging {
+  margin-top:20px;
+}
+
+.reportPaging>nav > ul{
+  justify-content: center;
+}

@@ -1,0 +1,189 @@
+.reportedWrap{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.reportedWrapTop{
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.reportedCnt{
+  font-size: 0.9rem;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin-left:30%;
+  margin-right:30%;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.postListWrapTop{
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.postListWrap{
+  display: flex;
+  flex-direction: column;
+}
+
+.postListTop{
+  font-size: 0.8rem;
+  margin-top:20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.postListHead{
+  display: flex;
+  border-top: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  line-height: 20px;
+  font-size: 0.8rem;
+  background-color: rgb(183, 202, 202);
+}
+
+.postListHeadTitle{
+  width: 20%;
+}
+
+.postListHeadContent{
+  width: 60%;
+}
+
+.postListHeadTime{
+  width: 15%;
+}
+
+.postListHeadDelete{
+  width: 5%;
+}
+
+.postListBodyWrap{
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.postListBody{
+  display: flex;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  line-height: 20px;
+  font-size: 0.8rem;
+}
+
+.postListBody:hover{
+  background-color: rgb(236, 236, 236);
+}
+
+.postListBodyTitle{
+  width: 20%;
+}
+
+.postListBodyContent{
+  width: 60%;
+}
+
+.postListBodyTime{
+  width: 15%;
+}
+
+.postListBodyDelete{
+  width: 5%;
+}
+
+.postListBodyDelete:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.chatListWrap{
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+
+.chatListTop{
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.chatListHead{
+  display: flex;
+  border-top: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  line-height: 20px;
+  font-size: 0.8rem;
+  background-color: rgb(183, 202, 202);
+}
+
+.chatListHeadTime{
+  width: 15%;
+}
+
+.chatListHeadMessage{
+  width: 70%;
+}
+
+.chatListBodyWrap{
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.chatListBody{
+  display: flex;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  line-height: 20px;
+  font-size: 0.8rem;
+}
+
+.chatListBodyTime{
+  width: 15%;
+}
+
+.chatListBodyMessage{
+  width: 70%;
+}
+
+.suspensionBody {
+  font-size: 0.9rem;
+  font-weight: bold;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-top:20px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.suspensionChoice {
+  padding: 20px 0;
+  font-weight: normal;
+}
+
+.suspensionBtn {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(116, 199, 255);
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.suspensionBtn:hover {
+  font-weight: bold;
+}

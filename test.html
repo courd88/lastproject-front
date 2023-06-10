@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>게시판</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+
+<body>
+    <div class="container" style="
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+">
+        <h2>게시판 상세</h2>
+        <form action="" method="POST" id="frm" name="frm">
+            <!-- 수정 또는 삭제할 게시판 번호를 히든 필드로 정의 -->
+            <input type="hidden" name="boardIdx" th:value="${board.boardIdx}" />
+
+            <table class="board_detail" style=" 
+            width: 800px;
+            margin: 0 auto;
+            border: 1px solid yellow; 
+            border-collapse: collapse;
+        ">
+                <colgroup>
+                    <col width="15%" />
+                    <col width="35%" />
+                    <col width="15%" />
+                    <col width="35%" />
+                </colgroup>
+                <tbody>
+                    <tr style="width: 100%;">
+                        <th scope="row">글번호</th>
+                        <td th:text="${board.boardIdx}"></td>
+                        <th scope="row">조회수</th>
+                        <td th:text="${board.hitCnt}"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">작성자</th>
+                        <td th:text="${board.createdId}"></td>
+                        <th scope="row">작성일</th>
+                        <td th:text="${board.createdDt}"></td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="4">제목</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div style="display: flex;
+                            flex-direction: row;
+                            align-content: center;
+                            height: 300px;
+                        ">
+                                <input type="text" id="title" name="title" th:value="${board.title}"
+                                    style="width: 50%;" />
+                                <input type="text" id="title" name="title" th:value="${board.title}"
+                                    style="width: 50%;" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="view_text">
+                            <textarea title="내용" id="contents" name="contents" th:text="${board.contents}" style=" 
+                            width: calc(100% - 6px);
+                            height: 200px;"></textarea>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <div>
+            <input type="button" id="list" class="btn" value="목록으로" />
+            <input type="button" id="edit" class="btn" value="수정하기" />
+            <input type="button" id="delete" class="btn" value="삭제하기" />
+        </div>
+
+    </div>
+</body>
+
+</html>

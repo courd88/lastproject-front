@@ -1,0 +1,154 @@
+#mapdetail-comment-container{
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#mapdetail-comment-wrap{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 5px;
+  overflow-y: scroll;
+}
+
+#mapdetail-comment-wrap::-webkit-scrollbar{
+  width: 5px;
+  background-color: rgb(230, 230, 230);
+}
+
+#mapdetail-comment-wrap::-webkit-scrollbar-thumb{
+  width: 5px;
+  background-color: rgb(197, 197, 197);
+}
+
+.map-comment-each{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.map-comment-each>button{
+  margin-left:0;
+  padding : 0;
+}
+
+.map-comment-profile-pic{
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.map-comment-profile-pic>img{
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.map-comment-content-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left:10px;
+}
+
+.map-comment-content-head{
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+.map-comment-content-head > span{
+  margin-right: 10px;
+}
+
+.map-comment-content-nick{
+  font-weight: bold;
+}
+
+.map-comment-content-date{
+  color: gray;
+}
+
+.map-comment-content-body{
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.map-comment-content-foot{
+  display: flex;
+  font-size: 0.7rem;
+}
+
+.map-comment-content-modify{
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px 2px 2px 2px;
+}
+
+.map-comment-content-modify:hover{
+  background-color: rgb(216, 216, 216);
+}
+
+.map-comment-content-delete{
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px 2px 2px 2px;
+}
+
+.map-comment-content-delete:hover{
+  background-color: rgb(216, 216, 216);
+}
+
+#mapdetail-comment-write{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 0 0 10px 10px;
+  border-top:1px solid rgb(201, 201, 201);
+  box-sizing: border-box;
+  padding: 5px 3px 2px 3px;
+  font-size: 0.8rem;
+}
+
+#mapdetail-comment-write-input{
+  border: none;
+  width:90%;
+  height: auto;
+  line-height: 40px;
+}
+
+#mapdetail-comment-write-btn{
+  width: 35px;
+  height: 35px;
+  color: white;
+  background-color: rgb(204, 204, 204);
+  border: none;
+  border-radius: 10px;
+}
+
+#mapdetail-comment-write-btn:hover{
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+
+}
+
+@media (min-width:1000px){
+  #mapdetail-comment-wrap{
+    height: 350px;
+  }
+
+  #mapdetail-comment-write{
+    height: 50px;
+  }
+
+  #mapdetail-comment-write-input{
+    width:180px;
+  }
+}
